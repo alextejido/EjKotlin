@@ -1,0 +1,22 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.ejkotlin.MainActivity2">
+
+    <TextView
+        android:id="@+id/main2_textview"
+        android:layout_width="159dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="116dp"
+        android:text="@string/Hola"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="84dp" />
+
+</android.support.constraint.ConstraintLayout>
